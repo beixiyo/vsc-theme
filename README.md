@@ -1,16 +1,6 @@
-# my-theme README
+# 安装
 
-## Working with Markdown
+> 基于 One Dark Pro 美化
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+1. 下载 `vsc-data-to-ts.vsix`
+2. 打开 *VSCode*，点击 扩展 => 右上角 `...` => 从 VSIX 安装
