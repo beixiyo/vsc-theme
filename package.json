@@ -1,21 +1,31 @@
 {
-  "name": "cjl-theme",
-  "displayName": "cjl-theme",
+  "name": "vsc-theme",
+  "displayName": "vsc-theme",
   "description": "dark",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.88.0"
   },
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "build": "vsce package --no-dependencies"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "CJL",
+        "label": "vsc-theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/CJL-color-theme.json"
+        "path": "./themes/vsc-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.26.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beixiyo/vsc-theme"
   }
 }
