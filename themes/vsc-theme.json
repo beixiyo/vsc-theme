@@ -37,8 +37,15 @@
   "tokenColors": [
     {
       "scope": [
-        "variable.parameter",
         "keyword.operator.new",
+        "keyword.operator.word",
+        "keyword.operator.module",
+        "keyword.operator.optional",
+        "keyword.operator.ternary",
+        "keyword.operator.assignment",
+        "keyword.operator.expression.keyof",
+        "keyword.operator.expression.instanceof",
+        "storage.modifier.import.groovy",
         "storage"
       ],
       "settings": {
@@ -46,17 +53,24 @@
       }
     },
     {
-      "name": "ts primitive/builtin types",
-      "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
+      "name": "types",
+      "scope": [
+        "support.type",
+        "support.type.sys-types",
+        "entity.name.type",
+        "support.type.primitive.ts",
+        "support.type.builtin.ts",
+        "support.type.primitive.tsx",
+        "support.type.builtin.tsx",
+        "storage.type.java",
+        "storage.type.generic.java",
+        "storage.type.primitive.java",
+        "storage.type.annotation.java",
+        "storage.type.object.array.java"
+      ],
       "settings": {
-        "foreground": "#4ec9b0"
-      }
-    },
-    {
-      "name": "Type Name",
-      "scope": "entity.name.type",
-      "settings": {
-        "foreground": "#4ec9b0"
+        "foreground": "#4ec9b0",
+        "fontStyle": "normal"
       }
     },
     {
@@ -75,21 +89,10 @@
       }
     },
     {
-      "name": "java type",
-      "scope": [
-        "storage.type.annotation.java",
-        "storage.type.object.array.java"
-      ],
-      "settings": {
-        "foreground": "#4ec9b0"
-      }
-    },
-    {
       "name": "java instanceof",
       "scope": "keyword.operator.instanceof.java",
       "settings": {
-        "foreground": "#c678dd",
-        "fontStyle": "italic"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -319,7 +322,7 @@
     },
     {
       "name": "java modifier.import",
-      "scope": "storage.modifier.import.java,storage.type.java,storage.type.generic.java",
+      "scope": "storage.modifier.import.java",
       "settings": {
         "foreground": "#e5c07b"
       }
@@ -642,7 +645,7 @@
       "name": "Java Variables",
       "scope": "token.variable.parameter.java",
       "settings": {
-        "foreground": "#c2c2c2"
+        "foreground": "#e06c75"
       }
     },
     {
