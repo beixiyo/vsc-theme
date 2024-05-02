@@ -37,6 +37,7 @@
   "tokenColors": [
     {
       "scope": [
+        "keyword.control",
         "keyword.operator.new",
         "keyword.operator.word",
         "keyword.operator.module",
@@ -49,7 +50,8 @@
         "storage"
       ],
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#c678dd"
       }
     },
     {
@@ -74,14 +76,6 @@
       }
     },
     {
-      "name": "Keyword Control",
-      "scope": "keyword.control",
-      "settings": {
-        "foreground": "#c678dd",
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
@@ -89,17 +83,33 @@
       }
     },
     {
-      "name": "java instanceof",
+      "name": "Java instanceof",
       "scope": "keyword.operator.instanceof.java",
       "settings": {
         "foreground": "#c678dd"
       }
     },
     {
-      "name": "java args",
+      "name": "Java args",
       "scope": "meta.method.body.java",
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "Java Class and Props",
+      "scope": [
+        "variable.other.object"
+      ],
+      "settings": {
+        "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "this",
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#e5c07b"
       }
     },
     {
@@ -642,13 +652,6 @@
       }
     },
     {
-      "name": "Language variables",
-      "scope": "variable.language",
-      "settings": {
-        "foreground": "#e5c07b"
-      }
-    },
-    {
       "name": "Java Variables",
       "scope": "token.variable.parameter.java",
       "settings": {
@@ -690,14 +693,7 @@
     },
     {
       "name": "Classes",
-      "scope": "entity.name.type.namespace",
-      "settings": {
-        "foreground": "#e5c07b"
-      }
-    },
-    {
-      "name": "Classes",
-      "scope": "support.class, entity.name.type.class",
+      "scope": "entity.name.type.namespace, support.class, entity.name.type.class",
       "settings": {
         "foreground": "#e5c07b"
       }
@@ -1991,15 +1987,6 @@
       ],
       "settings": {
         "foreground": "#e06c75"
-      }
-    },
-    {
-      "name": "variable.other.object",
-      "scope": [
-        "variable.other.object"
-      ],
-      "settings": {
-        "foreground": "#e5c07b"
       }
     },
     {
