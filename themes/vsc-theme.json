@@ -49,14 +49,14 @@
       "name": "ts primitive/builtin types",
       "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
       "settings": {
-        "foreground": "#4EC9B0"
+        "foreground": "#4ec9b0"
       }
     },
     {
       "name": "Type Name",
       "scope": "entity.name.type",
       "settings": {
-        "foreground": "#4EC9B0"
+        "foreground": "#4ec9b0"
       }
     },
     {
@@ -81,7 +81,7 @@
         "storage.type.object.array.java"
       ],
       "settings": {
-        "foreground": "#4EC9B0"
+        "foreground": "#4ec9b0"
       }
     },
     {
@@ -1962,7 +1962,7 @@
         "punctuation.section.embedded.end.php"
       ],
       "settings": {
-        "foreground": "#BE5046"
+        "foreground": "#be5046"
       }
     },
     {
