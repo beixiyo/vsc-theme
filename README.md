@@ -10,5 +10,5 @@
 
 ## 手动安装
 
-1. 下载或者打包 `vsc-theme.vsix`
+1. 下载或者打包 `pretty-dark-theme.vsix`
 2. 打开 *VSCode*，点击 扩展 => 右上角 `...` => 从 VSIX 安装
