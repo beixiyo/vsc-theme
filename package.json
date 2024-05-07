@@ -1,7 +1,7 @@
 {
-  "name": "vsc-theme",
-  "displayName": "vsc-theme",
-  "description": "dark",
+  "name": "pretty-dark-theme",
+  "displayName": "Pretty Dark Theme",
+  "description": "基于 One Dark Pro 主题，更暗更美",
   "version": "0.0.8",
   "publisher": "CJL",
   "engines": {
@@ -16,7 +16,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "vsc-theme",
+        "label": "Pretty Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/vsc-theme.json"
       }
