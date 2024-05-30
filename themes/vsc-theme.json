@@ -60,6 +60,7 @@
         "support.type",
         "support.type.sys-types",
         "entity.name.type",
+        "entity.name.type.class",
         "support.type.primitive.ts",
         "support.type.builtin.ts",
         "support.type.primitive.tsx",
@@ -693,7 +694,7 @@
     },
     {
       "name": "Classes",
-      "scope": "entity.name.type.namespace, support.class, entity.name.type.class",
+      "scope": "entity.name.type.namespace, support.class",
       "settings": {
         "foreground": "#e5c07b"
       }
