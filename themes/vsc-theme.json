@@ -13,16 +13,17 @@
       "foreground": "#e5c07b"
     },
     "variable:dart": {
-      "foreground": "#d19a66"
+      "foreground": "#e5c07b"
     },
     "property:dart": {
-      "foreground": "#d19a66"
+      "foreground": "#e06c75"
     },
     "annotation:dart": {
-      "foreground": "#d19a66"
+      "foreground": "#d19a66",
+      "fontStyle": "normal"
     },
     "parameter.label:dart": {
-      "foreground": "#c2c2c2"
+      "foreground": "#e06c75"
     },
     "macro": {
       "foreground": "#d19a66"
