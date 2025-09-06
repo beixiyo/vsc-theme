@@ -1,5 +1,5 @@
 {
-  "name": "vsc-theme",
+  "name": "pretty-dark-theme",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -2104,7 +2104,14 @@
     "button.secondaryForeground": "#c0bdbd",
     "debugToolBar.background": "#181818",
     "descriptionForeground": "#c2c2c2",
-    "diffEditor.insertedTextBackground": "#00809b33",
+
+    "diffEditor.insertedTextBackground": "#2E8B59ab",
+    "diffEditor.removedTextBackground": "#f329",
+    "diffEditor.insertedLineBackground": "#28a74523",
+    "diffEditor.removedLineBackground": "#d73a4923",
+    "diffEditorGutter.insertedLineBackground": "#28a74523",
+    "diffEditorGutter.removedLineBackground": "#d73a4923",
+
     "dropdown.background": "#181818",
     "dropdown.border": "#181818",
     "editor.background": "#191815d6",
