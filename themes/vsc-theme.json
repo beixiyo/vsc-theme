@@ -845,6 +845,14 @@
       }
     },
     {
+      "name": "Language Constants (null, undefined, true, false)",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#d19a66",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "Tags",
       "scope": "entity.name.tag",
       "settings": {
@@ -1163,7 +1171,8 @@
       "name": "Source Json Meta Structure Dictionary Json > Constant Language Json,source Json Meta Structure Array Json > Constant Language Json",
       "scope": "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
       "settings": {
-        "foreground": "#56b6c2"
+        "foreground": "#56b6c2",
+        "fontStyle": "italic"
       }
     },
     {
