@@ -2,7 +2,7 @@
   "name": "pretty-dark-theme",
   "displayName": "Pretty Dark Theme",
   "description": "基于 One Dark Pro 主题，更暗更美",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "publisher": "CJL",
   "engines": {
     "vscode": "^1.88.0"
@@ -26,6 +26,9 @@
   "devDependencies": {
     "@vscode/vsce": "^3.2.2"
   },
+  "author": "CJL <2662442385@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/beixiyo/vsc-theme",
   "repository": {
     "type": "git",
     "url": "https://github.com/beixiyo/vsc-theme"
