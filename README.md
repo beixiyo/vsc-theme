@@ -1,8 +1,11 @@
+# Pretty Dark Theme
+
+![Theme Preview](./assets/theme.webp)
+
 ## 说明
 
 - **基底**: 基于 One Dark Pro 深度美化，更暗、更高对比度
 - **语义配色**: 围绕「类型绿 / 变量红 / 常量黄 / 关键字紫斜体」做跨语言统一
-- **多语言增强**: `Lite` 主打前端，`Plus` 覆盖 Go / Rust / Java / Dart / Lua / C / C++ / C# / Swift / Kotlin / Ruby / Python 等
 
 ## 主题设计
 
@@ -36,14 +39,16 @@
   - **this / self / Rust self 等语言内置变量**: 黄色 `#e5c07b`
 
 - **HTML / JSX / TSX**
-  - **标签名**: 浅蓝 `#6f9bff`
+  - **标签名**: 浅蓝 `#6f9bff`（在 TSX 纯文本上下文中为中性白 `#c2c2c2`）
   - **属性名（className / style 等）**: 属性黄橙 `#d19a66`
   - **尖括号 `< >`**: 中性灰 `#c2c2c2`
+  - **HTML 内嵌 `<script>` 中的变量**: 中性白 `#c2c2c2`（与纯文本一致）
 
 - **Markdown**
   - **标题**: 红系 `#e06c75`
   - **有序 / 无序列表符号**: 浅蓝 `#6f9bff`
-  - **加粗 / 斜体标记**: 紫色 `#c678dd`，加粗样式
+  - **加粗**: 属性黄橙 `#d19a66`，加粗样式
+  - **斜体**: 标签浅蓝 `#6f9bff`，斜体样式
   - **行内代码 / 代码块**: 字符串绿 `#98c379`
   - **链接文字 / URL**: 链接蓝 `#61afef`
 

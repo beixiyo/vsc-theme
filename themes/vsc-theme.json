@@ -1,5 +1,5 @@
 {
-  "name": "pretty-dark-theme-plus",
+  "name": "pretty-dark-theme",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -171,6 +171,17 @@
       ],
       "settings": {
         "foreground": "#e06c75"
+      }
+    },
+    {
+      "name": "HTML embedded JS plain text (variables as neutral)",
+      "scope": [
+        "text.html.derivative meta.embedded.block.html variable.other.readwrite",
+        "meta.embedded.block.html variable.other.readwrite.js",
+        "source.js meta.embedded.block.html variable.other.readwrite"
+      ],
+      "settings": {
+        "foreground": "#c2c2c2"
       }
     },
     {
@@ -504,6 +515,16 @@
       }
     },
     {
+      "name": "JSX/TSX plain text (tags as neutral)",
+      "scope": [
+        "meta.tag.tsx",
+        "source.tsx meta.tag"
+      ],
+      "settings": {
+        "foreground": "#c2c2c2"
+      }
+    },
+    {
       "name": "HTML / JSX attributes",
       "scope": [
         "entity.other.attribute-name",
@@ -564,19 +585,28 @@
       }
     },
     {
-      "name": "Markdown emphasis / strong",
+      "name": "Markdown bold",
       "scope": [
         "markup.bold",
         "todo.bold",
         "punctuation.definition.bold",
-        "punctuation.definition.bold.markdown",
+        "punctuation.definition.bold.markdown"
+      ],
+      "settings": {
+        "foreground": "#d19a66",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown italic",
+      "scope": [
         "markup.italic",
         "punctuation.definition.italic",
         "todo.emphasis"
       ],
       "settings": {
-        "foreground": "#c678dd",
-        "fontStyle": "bold"
+        "foreground": "#6f9bff",
+        "fontStyle": "italic"
       }
     },
     {
