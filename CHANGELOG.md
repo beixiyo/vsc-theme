@@ -21,3 +21,6 @@
 - **HTML 内嵌 JS 纯文本**：HTML 内 `<script>` 中的变量（`variable.other.readwrite`）改为中性白 `#c2c2c2`，不再使用变量红
 - **Markdown 加粗**：由常量黄改为属性黄橙 `#d19a66`，降低亮度
 - **Markdown 斜体**：单独拆条，改为标签浅蓝 `#6f9bff`，斜体样式
+
+## [1.0.2]
+- 调低 Git diff 的鲜艳度，减小视觉疲劳
