@@ -52,6 +52,10 @@
     },
     "property": {
       "foreground": "#d19a66"
+    },
+    "namespace": {
+      "foreground": "#4ec9b0",
+      "fontStyle": "normal"
     }
   },
   "tokenColors": [
@@ -95,6 +99,7 @@
       "name": "Logical / Bitwise Operators",
       "scope": [
         "keyword.operator.logical",
+        "keyword.operator.logical.tsx",
         "keyword.operator.bitwise",
         "keyword.operator.channel",
         "keyword.operator.arithmetic",
@@ -113,10 +118,13 @@
         "keyword.operator.arithmetic.go",
         "keyword.operator.address.go",
         "keyword.operator.misc.rust",
-        "keyword.operator.sigil.rust"
+        "keyword.operator.sigil.rust",
+        "keyword.operator.key-value.rust",
+        "keyword.operator.namespace.rust"
       ],
       "settings": {
-        "foreground": "#56b6c2"
+        "foreground": "#56b6c2",
+        "fontStyle": ""
       }
     },
     {
@@ -499,7 +507,7 @@
         "punctuation.separator.list.comma.css"
       ],
       "settings": {
-        "foreground": "#56b6c2"
+        "foreground": "#c2c2c2"
       }
     },
     {
@@ -511,7 +519,7 @@
         "constant.character.entity"
       ],
       "settings": {
-        "foreground": "#6f9bff"
+        "foreground": "#7d99db"
       }
     },
     {
@@ -705,6 +713,30 @@
       ],
       "settings": {
         "foreground": "#c2c2c2"
+      }
+    },
+    {
+      "name": "Type operators (TS / TSX)",
+      "scope": [
+        "keyword.operator.type",
+        "keyword.operator.type.ts",
+        "keyword.operator.type.tsx"
+      ],
+      "settings": {
+        "foreground": "#56b6c2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Optional operator (TS / TSX)",
+      "scope": [
+        "keyword.operator.optional",
+        "keyword.operator.optional.ts",
+        "keyword.operator.optional.tsx"
+      ],
+      "settings": {
+        "foreground": "#56b6c2",
+        "fontStyle": ""
       }
     },
     {

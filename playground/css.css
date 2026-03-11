@@ -1,0 +1,17 @@
+body {
+  --color-text: #c2c2c2;
+  background: #191815d6;
+  color: var(--color-text);
+}
+
+.btn-primary {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #61afef;
+  color: #191815d6;
+}
+
+.btn-primary:hover {
+  background: #4b93d6;
+}
+

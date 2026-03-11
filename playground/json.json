@@ -1,0 +1,11 @@
+{
+  "name": "pretty-dark-theme",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vsce package",
+    "test": "echo \"test\""
+  },
+  "flags": [true, false, null, 1, 2.5]
+}
+
