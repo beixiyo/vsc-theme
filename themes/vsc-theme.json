@@ -589,7 +589,7 @@
         "markup.quote.markdown"
       ],
       "settings": {
-        "foreground": "#636b78"
+        "foreground": "#696969"
       }
     },
     {
@@ -746,6 +746,18 @@
       ],
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Ternary operators no italic",
+      "scope": [
+        "keyword.operator.ternary",
+        "keyword.operator.ternary.ts",
+        "keyword.operator.ternary.tsx"
+      ],
+      "settings": {
+        "foreground": "#c678dd",
+        "fontStyle": ""
       }
     }
   ],

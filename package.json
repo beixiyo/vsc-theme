@@ -2,7 +2,7 @@
   "name": "pretty-dark-theme",
   "displayName": "Pretty Dark Theme",
   "description": "基于 One Dark Pro 主题，更暗更美",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "CJL",
   "engines": {
     "vscode": "^1.88.0"
